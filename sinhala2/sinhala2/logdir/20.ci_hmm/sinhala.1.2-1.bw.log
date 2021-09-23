@@ -1,0 +1,163 @@
+        INFO: main.c(229): Compiled on Oct 12 2021 at 09:21:44
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-2passvar	no		yes
+-abeam		1e-100		1.000000e-90
+-accumdir			/Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-bbeam		1e-100		1.000000e-10
+-cb2mllrfn	.1cls.		.1cls.
+-cepdir				/Users/sandaru1/Desktop/personal/sinhala2/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-ckptintv			0
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala_train.fileids
+-diagfull	no		no
+-dictfn				/Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.dic
+-example	no		no
+-fdictfn			/Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.filler
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-hmmdir				
+-latdir				
+-latext				
+-lda				
+-ldadim		0		0
+-lsnfn				/Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala_train.transcription
+-lw		11.5		1.150000e+01
+-maxuttlen	0		0
+-meanfn				/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/means
+-meanreest	yes		yes
+-mixwfn				/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/mixture_weights
+-mixwreest	yes		yes
+-mllrmat			
+-mmie		no		no
+-mmie_type	rand		rand
+-moddeffn			/Users/sandaru1/Desktop/personal/sinhala2/model_architecture/sinhala.ci.mdef
+-mwfloor	0.00001		1.000000e-08
+-npart				1
+-nskip				0
+-outphsegdir			
+-outputfullpath	no		no
+-part				1
+-pdumpdir			
+-phsegdir			
+-phsegext	phseg		phseg
+-runlen		-1		-1
+-sentdir			
+-sentext	sent		sent
+-spthresh	0.0		0.000000e+00
+-svspec				
+-timing		yes		no
+-tmatfn				/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/transition_matrices
+-tmatreest	yes		yes
+-topn		4		1
+-tpfloor	0.0001		1.000000e-04
+-ts2cbfn			.cont.
+-varfloor	0.00001		1.000000e-04
+-varfn				/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/variances
+-varnorm	no		no
+-varreest	yes		yes
+-viterbi	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: main.c(318): Reading /Users/sandaru1/Desktop/personal/sinhala2/model_architecture/sinhala.ci.mdef
+INFO: model_def_io.c(573): Model definition info:
+INFO: model_def_io.c(574): 16 total models defined (16 base, 0 tri)
+INFO: model_def_io.c(575): 64 total states
+INFO: model_def_io.c(576): 48 total tied states
+INFO: model_def_io.c(577): 48 total tied CI states
+INFO: model_def_io.c(578): 16 total tied transition matrices
+INFO: model_def_io.c(579): 4 max state/model
+INFO: model_def_io.c(580): 4 min state/model
+INFO: s3mixw_io.c(117): Read /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/mixture_weights [48x1x1 array]
+INFO: s3tmat_io.c(118): Read /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/transition_matrices [16x3x4 array]
+INFO: mod_inv.c(301): inserting tprob floor 1.000000e-04 and renormalizing
+INFO: s3gau_io.c(169): Read /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/means [48x1x1 array]
+INFO: s3gau_io.c(169): Read /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/variances [48x1x1 array]
+INFO: gauden.c(176): 48 total mgau
+INFO: gauden.c(150): 1 feature streams (|0|=39 )
+INFO: gauden.c(187): 1 total densities
+INFO: gauden.c(90): min_var=1.000000e-04
+INFO: gauden.c(165): compute 1 densities/frame
+INFO: main.c(431): Will reestimate mixing weights.
+INFO: main.c(433): Will reestimate means.
+INFO: main.c(435): Will reestimate variances.
+INFO: main.c(443): Will reestimate transition matrices
+INFO: main.c(456): Reading main dictionary: /Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.dic
+INFO: lexicon.c(221): 12 entries added from /Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.dic
+INFO: main.c(466): Reading filler dictionary: /Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.filler
+INFO: lexicon.c(221): 3 entries added from /Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala.filler
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: main.c(665): Reestimation: Baum-Welch
+INFO: cmn.c(133): CMN: 48.12  5.28  6.03 -0.10  0.92  8.02 -3.36  5.20 -3.34  1.73  5.64 -6.34  7.70 
+column defns
+	<seq>
+	<id>
+	<n_frame_in>
+	<n_frame_del>
+	<n_state_shmm>
+	<avg_states_alpha>
+	<avg_states_beta>
+	<avg_states_reest>
+	<avg_posterior_prune>
+	<frame_log_lik>
+	<utt_log_lik>
+	... timing info ... 
+utt>     0                      back  167    0INFO: cvt2triphone.c(199): no multiphones defined, no conversion done
+    48 34  5 10 1.200613e-11 -1.446709e+02 -2.416004e+04
+INFO: cmn.c(133): CMN: 44.11 16.31 -10.35  5.57 -3.89  5.53  8.17 -8.13 -15.29 -2.01  7.96 -11.04  4.32 
+utt>     1                     eight   66    0    20 16  3 6 3.357215e-12 -1.586209e+02 -1.046898e+04
+INFO: cmn.c(133): CMN: 43.93 23.23 -6.79 -10.70 -19.30 -17.38 36.14  2.85 -9.65 -15.68  8.51  0.48 -7.54 
+utt>     2                      five   81    0    24 17  4 8 7.379468e-12 -1.513922e+02 -1.226277e+04
+INFO: cmn.c(133): CMN: 46.99  2.84  5.17  2.54  7.90  1.97 -1.73  9.08 -0.22  5.25  4.44 -6.74  6.11 
+utt>     3                   forward  176    0    48 28  4 8 8.707231e-12 -1.414918e+02 -2.490256e+04
+INFO: cmn.c(133): CMN: 46.24 12.60 -5.42  1.25 -14.15  1.28 26.86 -13.74 -15.56 -13.07 11.23 -7.66 -4.15 
+utt>     4                      four   80    0    32 24  5 11 8.547827e-12 -1.545759e+02 -1.236607e+04
+INFO: cmn.c(133): CMN: 41.87 22.89 -1.83 18.98 -3.12 -4.91 11.00 -27.37 -17.55 -14.78  0.14 -3.50 -15.23 
+utt>     5                      nine  108    0    32 20  3 7 5.161102e-12 -1.491531e+02 -1.610854e+04
+INFO: cmn.c(133): CMN: 39.02  9.81  0.52 22.62  2.93 -1.90 -3.42 -13.96 -14.35 -24.81 10.00 -5.97 -8.04 
+utt>     6                       one   92    0    20 14  3 6 3.240220e-12 -1.520617e+02 -1.398967e+04
+INFO: cmn.c(133): CMN: 43.29  9.75 -4.25  1.37 -17.49  1.26 21.67 -10.15 -17.97 -15.19 16.12 -12.33 -7.09 
+utt>     7                     seven   91    0    24 19  5 9 4.855404e-12 -1.544903e+02 -1.405862e+04
+INFO: cmn.c(133): CMN: 48.27 12.96 -8.16  9.11 -3.78 -11.27 21.09 -10.29 -12.54 -18.75  4.55 -7.16 -9.26 
+utt>     8                       six   74    0    24 17  3 7 3.297657e-12 -1.504992e+02 -1.113694e+04
+INFO: cmn.c(133): CMN: 38.40 17.63 -2.59 11.51 -4.32 -2.07  5.68 -15.02 -11.21 -6.95 11.56 -9.04 -5.59 
+utt>     9                       ten  119    0    32 20  3 7 4.980662e-12 -1.483567e+02 -1.765445e+04
+INFO: cmn.c(133): CMN: 34.29 22.38  3.26 13.90  0.70  7.61 15.03 -3.80 -5.49 -14.24 10.93  0.75 -16.99 
+utt>    10                     three   95    0    24 17  4 8 7.680062e-12 -1.496196e+02 -1.421386e+04
+INFO: cmn.c(133): CMN: 41.94 10.69  3.12 23.69 12.74 -4.50  4.52 -23.48 -7.66 -15.40 -4.04  0.95 -16.35 
+utt>    11                       two   94    0    24 16  3 6 4.484954e-12 -1.536830e+02 -1.444621e+04
+INFO: cmn.c(133): CMN: 48.12  5.28  6.03 -0.10  0.92  8.02 -3.36  5.20 -3.34  1.73  5.64 -6.34  7.70 
+utt>    12                      back  167    0    48 34  5 10 1.200613e-11 -1.446709e+02 -2.416004e+04
+INFO: cmn.c(133): CMN: 45.90 10.21  1.33  1.54  3.99  5.42 -1.48  5.84  5.57  6.28  5.61 -8.59  6.89 
+utt>    13                     eight  108    0    20 17  5 10 9.511009e-12 -1.415734e+02 -1.528993e+04
+INFO: cmn.c(133): CMN: 55.62 10.82 -2.11 -11.54 -12.19  5.57  4.74 17.79  6.28 -0.17 14.49  4.79  6.11 
+utt>    14                      five   75    0    24 21  6 12 8.341646e-12 -1.401285e+02 -1.050964e+04
+INFO: cmn.c(133): CMN: 46.99  2.84  5.17  2.54  7.90  1.97 -1.73  9.08 -0.22  5.25  4.44 -6.74  6.11 
+utt>    15                   forward  176    0    48 28  4 8 8.707231e-12 -1.414918e+02 -2.490256e+04
+INFO: cmn.c(133): CMN: 55.73 11.29 -0.77 -4.78 -2.07  0.21 -6.67  0.42  1.51 -1.95 17.10 -4.01  5.87 
+utt>    16                      four  105    0    32 26  7 14 8.106168e-12 -1.440060e+02 -1.512063e+04
+INFO: cmn.c(133): CMN: 44.29 10.25  8.38  9.42 12.20  7.83  3.65 11.24 10.62  6.22  1.26 -3.00 10.31 
+utt>    17                      nine  157    0    32 23  4 9 8.771074e-12 -1.397642e+02 -2.194297e+04
+INFO: cmn.c(133): CMN: 46.60  9.03  2.90  0.62  1.72  4.24 -2.41  4.11  0.87  4.82  4.15 -9.58  9.13 
+utt>    18                     seven  112    0    24 19  3 7 8.372118e-12 -1.405862e+02 -1.574566e+04
+INFO: cmn.c(133): CMN: 45.68  7.38  3.66  2.41  2.06 -1.36 -6.96  6.57  2.13  1.54  2.85 -6.81 13.21 
+utt>    19                       six  112    0    24 17  4 7 6.614470e-12 -1.427077e+02 -1.598326e+04
+INFO: cmn.c(133): CMN: 45.16 11.75  7.51  6.39  5.08  2.99  1.81  7.32  2.37  4.25  3.37 -7.43  8.90 
+utt>    20                       ten  151    0    32 22  4 8 6.811626e-12 -1.416472e+02 -2.138873e+04
+INFO: cmn.c(133): CMN: 52.06  9.54  1.92 -0.96  7.28 11.06 -0.32 10.00  6.05  2.20  0.29 -1.96  0.87 
+utt>    21                     three   92    0    24 18  4 9 8.824792e-12 -1.421510e+02 -1.307790e+04
+INFO: cmn.c(133): CMN: 58.43  9.92 -1.46  0.09  9.99  5.51 -11.86 11.04 -4.90  3.38  0.43  3.96  9.22 
+utt>    22                       two   98    0    24 18  3 7 6.642495e-12 -1.462086e+02 -1.432844e+04
+overall> stats 2596 (-0) -1.456928e+02 -3.782184e+05
+
+INFO: s3mixw_io.c(233): Wrote /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/mixw_counts [48x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/tmat_counts [16x3x4 array]
+INFO: s3gau_io.c(485): Wrote /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/gauden_counts with means with vars (2pass) [48x1x1 vector arrays]
+INFO: main.c(999): Counts saved to /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1
+Wed Nov 17 21:12:45 2021

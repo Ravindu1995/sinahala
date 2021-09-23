@@ -1,0 +1,34 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/means
+-mixwfn			/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/transition_matrices
+-varfn			/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/variances
+
+INFO: main.c(207): Reading and accumulating counts from /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1
+INFO: s3mixw_io.c(117): Read /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/mixw_counts [48x1x1 array]
+INFO: s3tmat_io.c(118): Read /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/tmat_counts [16x3x4 array]
+INFO: s3gau_io.c(386): Read /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/gauden_counts with means with vars (2pass) [48x1x1 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 48, n_stream= 1, n_density= 1
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/mixture_weights [48x1x1 array]
+INFO: s3tmat_io.c(176): Wrote /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/transition_matrices [16x3x4 array]
+INFO: s3gau_io.c(228): Wrote /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/means [48x1x1 array]
+INFO: s3gau_io.c(228): Wrote /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont/variances [48x1x1 array]
+Wed Nov 17 21:12:46 2021
+Current Overall Likelihood Per Frame = -141.438520801233
+Convergence ratio = 0.151694915254325

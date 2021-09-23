@@ -1,0 +1,73 @@
+Language model created by QuickLM on Mon Oct 18 02:25:16 EDT 2021
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=24
+ngram 3=12
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.8573 අට -0.2218
+-1.8573 ඉස්සරහට -0.2218
+-1.8573 එක -0.2218
+-1.8573 තුන -0.2218
+-1.8573 දහය -0.2218
+-1.8573 දෙක -0.2218
+-1.8573 නවය -0.2218
+-1.8573 පසුපසට -0.2218
+-1.8573 පහ -0.2218
+-1.8573 හත -0.2218
+-1.8573 හතර -0.2218
+-1.8573 හය -0.2218
+
+\2-grams:
+-1.3802 <s> අට 0.0000
+-1.3802 <s> ඉස්සරහට 0.0000
+-1.3802 <s> එක 0.0000
+-1.3802 <s> තුන 0.0000
+-1.3802 <s> දහය 0.0000
+-1.3802 <s> දෙක 0.0000
+-1.3802 <s> නවය 0.0000
+-1.3802 <s> පසුපසට 0.0000
+-1.3802 <s> පහ 0.0000
+-1.3802 <s> හත 0.0000
+-1.3802 <s> හතර 0.0000
+-1.3802 <s> හය 0.0000
+-0.3010 අට </s> -0.3010
+-0.3010 ඉස්සරහට </s> -0.3010
+-0.3010 එක </s> -0.3010
+-0.3010 තුන </s> -0.3010
+-0.3010 දහය </s> -0.3010
+-0.3010 දෙක </s> -0.3010
+-0.3010 නවය </s> -0.3010
+-0.3010 පසුපසට </s> -0.3010
+-0.3010 පහ </s> -0.3010
+-0.3010 හත </s> -0.3010
+-0.3010 හතර </s> -0.3010
+-0.3010 හය </s> -0.3010
+
+\3-grams:
+-0.3010 <s> අට </s>
+-0.3010 <s> ඉස්සරහට </s>
+-0.3010 <s> එක </s>
+-0.3010 <s> තුන </s>
+-0.3010 <s> දහය </s>
+-0.3010 <s> දෙක </s>
+-0.3010 <s> නවය </s>
+-0.3010 <s> පසුපසට </s>
+-0.3010 <s> පහ </s>
+-0.3010 <s> හත </s>
+-0.3010 <s> හතර </s>
+-0.3010 <s> හය </s>
+
+\end\

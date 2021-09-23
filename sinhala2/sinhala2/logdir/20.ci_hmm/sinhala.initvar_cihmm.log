@@ -1,0 +1,62 @@
+Current configuration:
+[NAME]		[DEFLT]		[VALUE]
+-accumdir			/Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1
+-agc		none		none
+-agcthresh	2.0		2.000000e+00
+-cepdir				/Users/sandaru1/Desktop/personal/sinhala2/feat
+-cepext		mfc		mfc
+-ceplen		13		13
+-cmn		live		batch
+-cmninit	40,3,-1		40,3,-1
+-ctlfn				/Users/sandaru1/Desktop/personal/sinhala2/etc/sinhala_train.fileids
+-dictfn				
+-example	no		no
+-fdictfn			
+-feat		1s_c_d_dd	1s_c_d_dd
+-fullvar	no		no
+-help		no		no
+-lda				
+-ldadim		0		0
+-lsnfn				
+-meanfn				/Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont_flatinitial/globalmean
+-moddeffn			
+-npart				1
+-nskip				0
+-part				1
+-runlen				0
+-scaleseg	no		no
+-segdir				
+-segext		v8_seg		v8_seg
+-svspec				
+-ts2cbfn			
+-varnorm	no		no
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='batch', VARNORM='no', AGC='none'
+INFO: corpus.c(1062): Will process all remaining utts starting at 0
+INFO: init_gau.c(145): Computing 1x1x1 variance estimates
+INFO: s3gau_io.c(169): Read /Users/sandaru1/Desktop/personal/sinhala2/model_parameters/sinhala.ci_cont_flatinitial/globalmean [1x1x1 array]
+INFO: cmn.c(133): CMN: 48.12  5.28  6.03 -0.10  0.92  8.02 -3.36  5.20 -3.34  1.73  5.64 -6.34  7.70 
+INFO: cmn.c(133): CMN: 44.11 16.31 -10.35  5.57 -3.89  5.53  8.17 -8.13 -15.29 -2.01  7.96 -11.04  4.32 
+INFO: cmn.c(133): CMN: 43.93 23.23 -6.79 -10.70 -19.30 -17.38 36.14  2.85 -9.65 -15.68  8.51  0.48 -7.54 
+INFO: cmn.c(133): CMN: 46.99  2.84  5.17  2.54  7.90  1.97 -1.73  9.08 -0.22  5.25  4.44 -6.74  6.11 
+INFO: cmn.c(133): CMN: 46.24 12.60 -5.42  1.25 -14.15  1.28 26.86 -13.74 -15.56 -13.07 11.23 -7.66 -4.15 
+INFO: cmn.c(133): CMN: 41.87 22.89 -1.83 18.98 -3.12 -4.91 11.00 -27.37 -17.55 -14.78  0.14 -3.50 -15.23 
+INFO: cmn.c(133): CMN: 39.02  9.81  0.52 22.62  2.93 -1.90 -3.42 -13.96 -14.35 -24.81 10.00 -5.97 -8.04 
+INFO: cmn.c(133): CMN: 43.29  9.75 -4.25  1.37 -17.49  1.26 21.67 -10.15 -17.97 -15.19 16.12 -12.33 -7.09 
+INFO: cmn.c(133): CMN: 48.27 12.96 -8.16  9.11 -3.78 -11.27 21.09 -10.29 -12.54 -18.75  4.55 -7.16 -9.26 
+INFO: cmn.c(133): CMN: 38.40 17.63 -2.59 11.51 -4.32 -2.07  5.68 -15.02 -11.21 -6.95 11.56 -9.04 -5.59 
+INFO: cmn.c(133): CMN: 34.29 22.38  3.26 13.90  0.70  7.61 15.03 -3.80 -5.49 -14.24 10.93  0.75 -16.99 
+INFO: cmn.c(133): CMN: 41.94 10.69  3.12 23.69 12.74 -4.50  4.52 -23.48 -7.66 -15.40 -4.04  0.95 -16.35 
+INFO: cmn.c(133): CMN: 48.12  5.28  6.03 -0.10  0.92  8.02 -3.36  5.20 -3.34  1.73  5.64 -6.34  7.70 
+INFO: cmn.c(133): CMN: 45.90 10.21  1.33  1.54  3.99  5.42 -1.48  5.84  5.57  6.28  5.61 -8.59  6.89 
+INFO: cmn.c(133): CMN: 55.62 10.82 -2.11 -11.54 -12.19  5.57  4.74 17.79  6.28 -0.17 14.49  4.79  6.11 
+INFO: cmn.c(133): CMN: 46.99  2.84  5.17  2.54  7.90  1.97 -1.73  9.08 -0.22  5.25  4.44 -6.74  6.11 
+INFO: cmn.c(133): CMN: 55.73 11.29 -0.77 -4.78 -2.07  0.21 -6.67  0.42  1.51 -1.95 17.10 -4.01  5.87 
+INFO: cmn.c(133): CMN: 44.29 10.25  8.38  9.42 12.20  7.83  3.65 11.24 10.62  6.22  1.26 -3.00 10.31 
+INFO: cmn.c(133): CMN: 46.60  9.03  2.90  0.62  1.72  4.24 -2.41  4.11  0.87  4.82  4.15 -9.58  9.13 
+INFO: cmn.c(133): CMN: 45.68  7.38  3.66  2.41  2.06 -1.36 -6.96  6.57  2.13  1.54  2.85 -6.81 13.21 
+INFO: cmn.c(133): CMN: 45.16 11.75  7.51  6.39  5.08  2.99  1.81  7.32  2.37  4.25  3.37 -7.43  8.90 
+INFO: cmn.c(133): CMN: 52.06  9.54  1.92 -0.96  7.28 11.06 -0.32 10.00  6.05  2.20  0.29 -1.96  0.87 
+INFO: cmn.c(133): CMN: 58.43  9.92 -1.46  0.09  9.99  5.51 -11.86 11.04 -4.90  3.38  0.43  3.96  9.22 
+INFO: s3gau_io.c(485): Wrote /Users/sandaru1/Desktop/personal/sinhala2/bwaccumdir/sinhala_buff_1/gauden_counts with vars (2pass) [1x1x1 vector arrays]
+Wed Nov 17 21:12:45 2021
